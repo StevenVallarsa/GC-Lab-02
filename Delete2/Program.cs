@@ -76,7 +76,7 @@ namespace StringApplication
                 }
                 catch (Exception)
                 {
-                    Console.Write("Oops. That not a valid input. Please try again: ");
+                    Console.Write("Oops. That's not a valid input. Please try again: ");
                 }
             }
         }
