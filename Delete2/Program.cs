@@ -72,12 +72,21 @@ namespace StringApplication
                 try
                 {
                     double output = Convert.ToDouble(userInput);
-                    return output;
+
+                    if (output > 0)
+                    {
+                        return output;
+                    }
+
+                    Console.Write("Oops. That's not a valid input. Please try again: ");
+
                 }
                 catch (Exception)
                 {
                     Console.Write("Oops. That's not a valid input. Please try again: ");
                 }
+
+
             }
         }
 
