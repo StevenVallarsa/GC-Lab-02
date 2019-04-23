@@ -22,6 +22,7 @@ namespace StringApplication
                 Console.Write("Enter Height: ");
                 double height = CheckValidity();
 
+
                 // Calculate results
                 double area = length * width;
                 double perimiter = (length + width) * 2;
